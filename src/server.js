@@ -1,12 +1,13 @@
 const express = require('express')
 
 
-// 
+const db = require('./database/db')
 const routes = require('./routes/routes')
 
 const app = express()
 
-
+// conexao com o banco de dados
+db.connect()
 
 app.use(express.urlencoded({ extended: true }))
 
