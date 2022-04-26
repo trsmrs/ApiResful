@@ -6,7 +6,7 @@ const ProductsController = require('../controllers/products')
 // VERBOS HTTP ( 4 TIPOS )
 
 // GET - obter dados
-router.get('/products', ProductsController.get)
+router.get('/products/:id?', ProductsController.get)
 
 
 // POST - enviar/receber dados
