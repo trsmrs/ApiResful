@@ -10,7 +10,7 @@ router.get('/products/:id?', ProductsController.get)
 
 
 // POST - enviar/receber dados
-// router.post('products', ProductsController.post)
+ router.post('/products', ProductsController.post)
 
 // PUT - atualizar dados
 // router.put('products/:id', ProductsController.put)
