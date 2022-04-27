@@ -16,7 +16,7 @@ router.get('/products/:id?', ProductsController.get)
  router.put('/products/:id', ProductsController.put)
 
 // DELETE - remover dados
-// router.delete('/products/:id', ProductsController.delete)
+ router.delete('/products/:id', ProductsController.remove)
 
 
 
