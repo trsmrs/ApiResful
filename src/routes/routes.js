@@ -13,10 +13,10 @@ router.get('/products/:id?', ProductsController.get)
  router.post('/products', ProductsController.post)
 
 // PUT - atualizar dados
-// router.put('products/:id', ProductsController.put)
+ router.put('/products/:id', ProductsController.put)
 
 // DELETE - remover dados
-// router.delete('products/:id', ProductsController.delete)
+// router.delete('/products/:id', ProductsController.delete)
 
 
 
